@@ -20,6 +20,7 @@
 	h3{
 		text-align:center;}
 	h4{
+		color:green;
 		font-size:10px;
 		margin-left:20px;
 		margin-top:10px;}
@@ -181,8 +182,12 @@
 		padding:10px;
 		margin-bottom:5%;}
 	.pay{
-		display:flex;
-		justify-content:space-evenly;}
+		display:grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 100px;
+	    justify-content:start;
+	    align-content: start;
+	    gap: 15px;}
 	@media(min-width:500px){
 		.input-cnt i{
 			min-width:10%;}
